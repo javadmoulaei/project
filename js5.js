@@ -7,4 +7,4 @@ arr.forEach(function(e){
     sum +=e
 })
 
-console.log(sum)
+console.log(sum )
