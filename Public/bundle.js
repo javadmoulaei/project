@@ -1,0 +1,1 @@
+(()=>{function e(e){e.preventDefault(),console.log(e.target.elements.productTitle.value);let t=document.createElement("p");t.textContent=e.target.elements.productTitle.value,document.querySelector("div").appendChild(t)}window.onload=function(){var t=document.querySelector("form");t.onsubmit=e.bind(t)}})();
